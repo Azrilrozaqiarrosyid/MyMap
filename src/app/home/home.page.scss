@@ -1,26 +1,50 @@
-#container {
+#container-basemap {
   text-align: center;
-  position: absolute;
-  height: 100%;
+  position: relative;
+  height: auto; /* Mengubah height agar sesuai dengan konten */
   width: 100%;
-  left: 0;
-  right: 0;
+  padding: 20px; /* Memberi ruang di dalam kontainer */
 }
 
-#container strong {
+#container-basemap strong {
   font-size: 20px;
   line-height: 26px;
+  display: block;
+  margin-bottom: 10px; /* Jarak antara teks dan elemen berikutnya */
 }
 
-#container p {
+#container-basemap ion-item {
+  margin: 20px 0; /* Jarak antara dropdown dan elemen lainnya */
+}
+
+#container-basemap ion-select {
+  width: 100%; /* Mengisi lebar yang tersedia */
+  max-width: 300px; /* Lebar maksimum untuk dropdown */
+  margin: 0 auto; /* Tengah-tengah kontainer */
+}
+
+#container-info {
+  text-align: center;
+  position: relative;
+  height: auto; /* Mengubah height agar sesuai dengan konten */
+  width: 100%;
+  padding: 20px; /* Memberi ruang di dalam kontainer */
+}
+
+#container-info strong {
+  font-size: 20px;
+  line-height: 26px;
+  display: block;
+  margin-bottom: 10px; /* Jarak antara teks dan elemen berikutnya */
+}
+
+#container-info p {
   font-size: 16px;
   line-height: 22px;
-
   color: #8c8c8c;
-
   margin: 0;
 }
 
-#container a {
+#container-info a {
   text-decoration: none;
 }
